@@ -1,7 +1,6 @@
 /*header*/
 
 header {
-    display: flex;
     flex-wrap: nowrap;
     background-color: rgb(230, 233, 241);
     padding: 6px;
@@ -28,9 +27,6 @@ header img {
     justify-content: end;
 }
 
-.justify-content-end{
-    justify-content: end;
-}
 .nav-link{
     font-family: 'Quicksand', sans-serif;
     color: rgb(56, 53, 53);
