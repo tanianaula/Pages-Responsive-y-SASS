@@ -25,6 +25,7 @@ header img {
     background-color: rgb(230, 233, 241);
     font-size: 18px;
     letter-spacing: 0.1px;
+    justify-content: end;
 }
 
 .nav-link{
