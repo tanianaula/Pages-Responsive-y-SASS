@@ -211,11 +211,11 @@ main section .row {
 
 .row img{
     width: 400px;
-    height: 300px;
+    height: 500px;
+    margin-left: 30px;
 }
 
 .row p {
-    margin-top: 20px;
     text-align: left;
 }
 
@@ -250,12 +250,12 @@ main section .row {
     padding: 0;
   }
   
-  .about .content ul li {
+.about .content ul li {
     padding: 0 0 8px 26px;
     position: relative;
   }
   
-  .about .content ul i {
+.about .content ul i {
     position: absolute;
     font-size: 20px;
     left: 0;
@@ -263,11 +263,11 @@ main section .row {
     color: var(--color-primary);
   }
   
-  .about .content p:last-child {
+.about .content p:last-child {
     margin-bottom: 0;
   }
   
-  .about .play-btn {
+.about .play-btn {
     width: 94px;
     height: 94px;
     background: radial-gradient(var(--color-primary) 50%, rgba(206, 18, 18, 0.4) 52%);
@@ -279,7 +279,7 @@ main section .row {
     overflow: hidden;
   }
   
-  .about .play-btn:before {
+.about .play-btn:before {
     content: "";
     position: absolute;
     width: 120px;
@@ -297,7 +297,7 @@ main section .row {
     background: rgba(198, 16, 0, 0);
   }
   
-  .about .play-btn:after {
+.about .play-btn:after {
     content: "";
     position: absolute;
     left: 50%;
@@ -312,7 +312,7 @@ main section .row {
     transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
   }
   
-  .about .play-btn:hover:before {
+.about .play-btn:hover:before {
     content: "";
     position: absolute;
     left: 50%;
@@ -329,7 +329,7 @@ main section .row {
     border-radius: 0;
   }
   
-  .about .play-btn:hover:after {
+.about .play-btn:hover:after {
     border-left: 15px solid var(--color-primary);
     transform: scale(20);
   }
