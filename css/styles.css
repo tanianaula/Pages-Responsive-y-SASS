@@ -28,6 +28,9 @@ header img {
     justify-content: end;
 }
 
+.justify-content-end{
+    justify-content: end;
+}
 .nav-link{
     font-family: 'Quicksand', sans-serif;
     color: rgb(56, 53, 53);
