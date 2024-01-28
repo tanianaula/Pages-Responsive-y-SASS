@@ -210,14 +210,14 @@ main section .row {
     padding: 50px 50px;
 }
 
-.row img{
+.propósito img{
     width: 400px;
     height: 500px;
     margin-left: 40px;
     margin-bottom: 20px;
 }
 
-.row p {
+.propósito p {
     text-align: justify;
     margin-right: 60px;
 }
@@ -418,7 +418,6 @@ row .información{
 .copyright-text{
   margin:0
 }
-
 .redes-sociales img{
     width:150px;
     height:50px;
@@ -478,10 +477,13 @@ row .información{
 /*queries de nosotros*/
 
 @media (max-width:480px){
-    .row img{
+    .propósito img{
         width: 360px;
 }
-    .acercade p{
+    .propósito p{
+        margin-left: 40px;
+    }
+    .propósito ul{
         margin-left: 40px;
     }
 }
