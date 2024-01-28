@@ -219,7 +219,7 @@ main section .row {
 
 .propósito p {
     text-align: justify;
-    margin-right: 60px;
+    margin-right: 40px;
 }
 
 .center-img{
@@ -497,7 +497,7 @@ row .información{
 }
 
 @media (max-width:480px){
-    .suscríbete-img img{
+    .newsletter img{
         width: 360px;
         height: 200;
 }
