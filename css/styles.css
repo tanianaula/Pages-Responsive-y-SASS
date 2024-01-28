@@ -406,6 +406,10 @@ div .submit button:active{
     margin-top: 30px
 }
 
+row .información{
+    margin-left: 40px;
+}
+
 .footer{
     list-style: none;
     margin-left: 10px;
@@ -527,7 +531,11 @@ div .submit button:active{
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: 3;
     }
+    .novedades-img img{
+        width: 360px;
 }
+}
+
 
 /*queries de bestsellers*/
 @media (max-width:991px){
@@ -542,12 +550,33 @@ div .submit button:active{
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: 3;
     }
+    .bestsellers img{
+        width: 360px;
+}
 }
 
-/*queries de acercade*/
+/*queries de nosotros*/
+
+@media (max-width:480px){
+    .row img{
+        width: 360px;
+}
+}
 
 /*queries de contacto*/
 
+@media (max-width:991px){
+    .suscríbete-img img{
+        width: 700px;
+}
+}
+
+@media (max-width:480px){
+    .suscríbete-img img{
+        width: 360px;
+        height: 200;
+}
+}
 
 
 
