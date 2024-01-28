@@ -412,7 +412,6 @@ div .submit button:active{
     section .novedades-img {
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: 3;
-        margin-right: 30px;
     }
 }
 
@@ -428,7 +427,6 @@ div .submit button:active{
     section .bestsellers{
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: 3;
-        margin-right: 30px;
     }
 }
 
