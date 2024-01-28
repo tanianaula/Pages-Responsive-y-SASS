@@ -239,7 +239,7 @@ main section .row {
 
 /*bloque de prueba*/
 
-.acercade {
+.acercade p{
     color: rgb(22, 20, 20);
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
