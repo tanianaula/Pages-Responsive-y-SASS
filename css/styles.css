@@ -350,7 +350,9 @@ main section .row {
 
 /*suscríbete*/
 
-.row {
+.newsletter {
+    display: flex;
+    flex-wrap: wrap;
     background-color: rgb(230, 233, 241);
     padding: 20px 20px;
 }
